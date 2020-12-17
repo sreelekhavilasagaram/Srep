@@ -32,7 +32,8 @@ public class Test1 implements Servlet{
 
 	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
 		// TODO Auto-generated methd stub
-	String tname = req.getParameter("name");
+	System.out.println("lekha");
+		String tname = req.getParameter("name");
 	String tnumber= req.getParameter("number");
 	String temail= req.getParameter("email");
 	String tpassword= req.getParameter("password");
